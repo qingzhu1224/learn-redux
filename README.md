@@ -1,13 +1,13 @@
 ## 整个流程 ##
 
-![图侵，删]
+![图侵，删](https://github.com/qingzhu1224/learn-redux/blob/master/react.jpg)
 
-####redux流程####
+#### redux流程 ####
 
 - action creator => action => store.dispatch(action) => reducer(preState, action) => newState
 
 
-####redux API#### [参考](https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md)
+#### redux API #### [参考](https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md)
 
 - createStore()
 
