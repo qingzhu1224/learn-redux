@@ -14,7 +14,7 @@
 
     - dispatch(action)
 
-    - getState()
+    - getState()v
 
 
 - bindActionCreator
@@ -46,7 +46,17 @@
 
 >3.compose(实现)
 
->4.middleware(中间件)
+- 将多个函数的能力合并，创造一个新的函数
+
+>4.middleware(中间件) [理解中间件](https://github.com/alsotang/node-lessons/tree/master/lesson18)
+
+- `中间件就是帮框架实现各种功能的程序`
+
+- 中间件为了扩展dispach的功能而存在，代码也是改造并返回新的dispatch，可以在这个dispatch里加入要加入的中间功能，执行next交给下一个中间件。
+
+- 将所有 处理逻辑函数(中间件) 存储在一个list中；
+ 
+- 请求到达时 循环调用 list中的 处理逻辑函数(中间件)；
 
 >5.柯里化 [参考](https://segmentfault.com/a/1190000008193605)
 

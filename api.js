@@ -73,3 +73,12 @@ function combineReducers(reducers) {
         return hasChanged ? nextState : state;
     }
 }
+
+
+const printStateMiddleware = ({ getState }) => {
+    return next => {
+        return action => {
+            
+        }
+    }
+}
