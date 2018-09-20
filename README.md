@@ -7,7 +7,8 @@
 - action creator => action => store.dispatch(action) => reducer(preState, action) => newState
 
 
-#### redux API #### [参考](https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md)
+#### redux API #### 
+[参考](https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md)
 
 - createStore()
 
@@ -43,7 +44,7 @@
 
 >4.middleware(中间件)
 
->5.柯里化
+>5.柯里化 [参考](https://segmentfault.com/a/1190000008193605)
 
 - 柯里化又称部分求值，柯里化函数会接受一些参数，然后不会立即求值，而是继续返回一个新函数，将传入的参数通过闭包的形式保存，等到真正求值的时候，再一次性把所有传入的参数进行求值。
 
